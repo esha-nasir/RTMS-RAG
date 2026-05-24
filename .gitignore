@@ -1,0 +1,51 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+report/
+
+# Virtualenvs
+rag-env/
+venv/
+env/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Data and models (don't commit large files)
+data/
+models/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# Logs and build
+logs/
+build/
+dist/
+
+# Secrets
+.env*
+!ReflexionTemporalMemorySuccessAgentRAG/.env.example
+
+# LaTeX sources & build artifacts (ignore source and generated outputs)
+*.tex
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
